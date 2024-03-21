@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:tahir_portfolio/view%20model/responsive.dart';
 import 'package:tahir_portfolio/view/projects/components/project_deatail.dart';
 
 import '../../../model/project_model.dart';
@@ -20,7 +21,11 @@ class ProjectStack extends StatelessWidget {
       onTap: () {
         projectList[index].isList == false
             ? ImageViewer(context, projectList[index].image!)
-            : getDialogue(projectList[index].imageList!);
+            : Responsive.isMobile(context) && Responsive.isLargeMobile(context)
+                ? getDialogueMobile(projectList[index].imageList!, context,
+                    projectList[index].description!)
+                : getDialogue2(projectList[index].imageList!, context,
+                    projectList[index].description!);
       },
       borderRadius: BorderRadius.circular(30),
       child: AnimatedContainer(

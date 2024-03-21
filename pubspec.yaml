@@ -75,6 +75,10 @@ flutter:
     - assets/addibuddy/
     - assets/holhealth/
     - assets/school/
+    - assets/skills/
+    - assets/lum-mah/
+    - assets/enlist/
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

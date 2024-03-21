@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tahir_portfolio/view%20model/responsive.dart';
 import 'package:tahir_portfolio/view/intro/components/intro_body.dart';
-import 'package:tahir_portfolio/view/intro/components/side_menu_button.dart';
 import 'package:tahir_portfolio/view/intro/components/social_media_list.dart';
 
 class Introduction extends StatelessWidget {
@@ -14,10 +13,10 @@ class Introduction extends StatelessWidget {
           SizedBox(
             width: MediaQuery.sizeOf(context).width * 0.01,
           ),
-          if (!Responsive.isLargeMobile(context))
-            MenuButton(
-              onTap: () => Scaffold.of(context).openDrawer(),
-            ),
+          // if (!Responsive.isLargeMobile(context))
+          //   MenuButton(
+          //     onTap: () => Scaffold.of(context).openDrawer(),
+          //   ),
           SizedBox(
             width: MediaQuery.sizeOf(context).width * 0.02,
           ),

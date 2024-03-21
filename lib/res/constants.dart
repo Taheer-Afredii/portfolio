@@ -134,6 +134,48 @@ const String addibuddy14 = '$addibuddyPath/14.png';
 const String addibuddy15 = '$addibuddyPath/15.png';
 const String addibuddy16 = '$addibuddyPath/16.png';
 
+//skills
+
+const String skillspath = 'assets/skills';
+const String skillApi = '$skillspath/api.png';
+const String skillbloc = '$skillspath/bloc.png';
+const String skilldart = '$skillspath/dart.png';
+const String skillfigma = '$skillspath/figma.png';
+const String skillfirebase = '$skillspath/firebase.png';
+const String skillflutter = '$skillspath/flutter.png';
+const String skillgooglecloud = '$skillspath/googlecloud.png';
+const String skillgooglemap = '$skillspath/googlemap.png';
+const String skillphotoshop = '$skillspath/photoshop.png';
+const String skillprovider = '$skillspath/provider.jpeg';
+const String skillxd = '$skillspath/xd.png';
+
+//lum-mah
+const String lumMahPath = 'assets/lum-mah';
+const String lumMah1 = '$lumMahPath/1.png';
+const String lumMah2 = '$lumMahPath/2.png';
+const String lumMah3 = '$lumMahPath/3.png';
+const String lumMah4 = '$lumMahPath/4.png';
+const String lumMah5 = '$lumMahPath/5.png';
+const String lumMah6 = '$lumMahPath/6.png';
+const String lumMah7 = '$lumMahPath/7.png';
+const String lumMah8 = '$lumMahPath/8.png';
+const String lumMah9 = '$lumMahPath/9.png';
+const String lumMah10 = '$lumMahPath/10.png';
+const String lumMah11 = '$lumMahPath/11.png';
+const String lumMah12 = '$lumMahPath/12.png';
+const String lumMah13 = '$lumMahPath/13.png';
+const String lumMah14 = '$lumMahPath/14.png';
+const String lumMah15 = '$lumMahPath/15.png';
+
+//enlist
+const String enlistPath = 'assets/enlist';
+const String enlist1 = '$enlistPath/1.png';
+const String enlist2 = '$enlistPath/2.png';
+const String enlist3 = '$enlistPath/3.png';
+const String enlist4 = '$enlistPath/4.png';
+const String enlist5 = '$enlistPath/5.png';
+const String enlist6 = '$enlistPath/6.png';
+
 //kitchen book lst
 List kitchenBookList = [
   kitchenBook1,
@@ -252,4 +294,31 @@ List addibuddyList = [
   addibuddy14,
   addibuddy15,
   addibuddy16,
+];
+//lum-mah lst
+List lumMahList = [
+  lumMah1,
+  lumMah2,
+  lumMah3,
+  lumMah4,
+  lumMah5,
+  lumMah6,
+  lumMah7,
+  lumMah8,
+  lumMah9,
+  lumMah10,
+  lumMah11,
+  lumMah12,
+  lumMah13,
+  lumMah14,
+  lumMah15,
+];
+//enlist lst
+List enlistList = [
+  enlist1,
+  enlist2,
+  enlist3,
+  enlist4,
+  enlist5,
+  enlist6,
 ];

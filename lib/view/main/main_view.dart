@@ -35,13 +35,23 @@ class MainView extends StatelessWidget {
               ),
             Expanded(
               flex: 9,
-              child: PageView(
-                allowImplicitScrolling: true,
+              child: PageView.builder(
+                itemCount: pages.length,
                 scrollDirection: Axis.vertical,
-                physics: const BouncingScrollPhysics(),
                 controller: controller,
-                children: [...pages],
+                pageSnapping: false,
+                itemBuilder: (context, index) {
+                  return pages[index];
+                },
               ),
+
+              //  PageView(
+              //   allowImplicitScrolling: false,
+              //   scrollDirection: Axis.vertical,
+              //   physics: const BouncingScrollPhysics(),
+              //   controller: controller,
+              //   children: [...pages],
+              // ),
             )
           ],
         ),
