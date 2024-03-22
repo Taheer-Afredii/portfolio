@@ -157,7 +157,7 @@ const String lumMah3 = '$lumMahPath/3.png';
 const String lumMah4 = '$lumMahPath/4.png';
 const String lumMah5 = '$lumMahPath/5.png';
 const String lumMah6 = '$lumMahPath/6.png';
-const String lumMah7 = '$lumMahPath/7.png';
+// const String lumMah7 = '$lumMahPath/7.png';
 const String lumMah8 = '$lumMahPath/8.png';
 const String lumMah9 = '$lumMahPath/9.png';
 const String lumMah10 = '$lumMahPath/10.png';
@@ -303,7 +303,7 @@ List lumMahList = [
   lumMah4,
   lumMah5,
   lumMah6,
-  lumMah7,
+  // lumMah7,
   lumMah8,
   lumMah9,
   lumMah10,

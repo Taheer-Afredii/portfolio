@@ -7,6 +7,7 @@ class MenuButton extends StatelessWidget {
   const MenuButton({super.key, this.onTap});
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     return Column(
       children: [
         const Spacer(),

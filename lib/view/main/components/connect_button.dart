@@ -62,14 +62,15 @@ class ConnectButtonMobile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     return InkWell(
       onTap: () {
         launchUrl(Uri.parse('https://wa.me/03175959489'));
       },
-      child: const Icon(
+      child: Icon(
         FontAwesomeIcons.whatsapp,
         color: Colors.greenAccent,
-        size: 15,
+        size: size.width * 0.05,
       ),
     );
   }

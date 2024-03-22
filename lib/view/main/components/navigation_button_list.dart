@@ -4,7 +4,8 @@ import 'package:tahir_portfolio/view%20model/controller.dart';
 import 'navigation_button.dart';
 
 class NavigationButtonList extends StatelessWidget {
-  const NavigationButtonList({super.key});
+  const NavigationButtonList({super.key, required this.onTap});
+  final void Function(int) onTap;
   @override
   Widget build(BuildContext context) {
     return TweenAnimationBuilder(
@@ -18,38 +19,28 @@ class NavigationButtonList extends StatelessWidget {
               //home button
               NavigationTextButton(
                   onTap: () {
-                    controller.animateToPage(0,
-                        duration: const Duration(milliseconds: 500),
-                        curve: Curves.ease);
+                    onTap(0);
                   },
                   text: 'Home'),
 
               NavigationTextButton(
                   onTap: () {
-                    controller.animateToPage(1,
-                        duration: const Duration(milliseconds: 500),
-                        curve: Curves.ease);
+                    onTap(1);
                   },
                   text: 'About Me'),
               NavigationTextButton(
                   onTap: () {
-                    controller.animateToPage(2,
-                        duration: const Duration(milliseconds: 500),
-                        curve: Curves.easeIn);
+                    onTap(2);
                   },
                   text: 'Projects'),
               NavigationTextButton(
                   onTap: () {
-                    controller.animateToPage(3,
-                        duration: const Duration(milliseconds: 500),
-                        curve: Curves.easeIn);
+                    onTap(3);
                   },
                   text: 'Skills'),
               // NavigationTextButton(
               //     onTap: () {
-              //       controller.animateToPage(4,
-              //           duration: const Duration(milliseconds: 500),
-              //           curve: Curves.ease);
+
               //     },
               //     text: 'Achievements'),
             ],

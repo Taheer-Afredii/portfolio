@@ -43,15 +43,15 @@ List<Project> projectList = [
     isList: true,
     imageList: kitchenBookList,
   ),
-  Project(
-    name: 'Kitchen Book',
-    description:
-        'With Kitchen Book, users can effortlessly explore nearby restaurants based on their current location, browse through enticing menus, and easily place orders, all through a seamless and intuitive interface. Users can keep track of their favorite spots by adding them to their personalized Favorites list. Stay updated with the latest offerings and promotions from local restaurants, and engage directly with owners through their posts, and stories. For restaurant owners, Kitchen Book provides comprehensive tools for managing orders, coordinating deliveries, and connecting with customers',
-    image: 'assets/images/coffee.png',
-    link: 'https://github.com/Hamad-Anwar/Coffe-Shop-Beautifull-UI',
-    isList: true,
-    imageList: kitchenBookList,
-  ),
+  // Project(
+  //   name: 'Kitchen Book',
+  //   description:
+  //       'With Kitchen Book, users can effortlessly explore nearby restaurants based on their current location, browse through enticing menus, and easily place orders, all through a seamless and intuitive interface. Users can keep track of their favorite spots by adding them to their personalized Favorites list. Stay updated with the latest offerings and promotions from local restaurants, and engage directly with owners through their posts, and stories. For restaurant owners, Kitchen Book provides comprehensive tools for managing orders, coordinating deliveries, and connecting with customers',
+  //   image: 'assets/images/coffee.png',
+  //   link: 'https://github.com/Hamad-Anwar/Coffe-Shop-Beautifull-UI',
+  //   isList: true,
+  //   imageList: kitchenBookList,
+  // ),
   Project(
       name: 'EYOBOY - Flutter E-commerce App',
       description:
@@ -60,14 +60,14 @@ List<Project> projectList = [
       link: 'https://github.com/Hamad-Anwar/Car-Controller-Getx-Flutter',
       isList: true,
       imageList: psgList),
-  Project(
-      name: 'ONLINE SERVICE APP',
-      description:
-          'ONLINE SERVICE APP is a comprehensive Flutter-based application that offers a wide range of services, including plumbing, electrical, and carpentry. This app provides a seamless user experience, allowing users to book services, track orders, and manage payments.',
-      image: 'assets/images/alarm.jpg',
-      link: 'https://github.com/Hamad-Anwar/Neumorphic-Analog-Clockify',
-      isList: true,
-      imageList: app78List),
+  // Project(
+  //     name: 'ONLINE SERVICE APP',
+  //     description:
+  //         'ONLINE SERVICE APP is a comprehensive Flutter-based application that offers a wide range of services, including plumbing, electrical, and carpentry. This app provides a seamless user experience, allowing users to book services, track orders, and manage payments.',
+  //     image: 'assets/images/alarm.jpg',
+  //     link: 'https://github.com/Hamad-Anwar/Neumorphic-Analog-Clockify',
+  //     isList: true,
+  //     imageList: app78List),
   Project(
     name: 'GSSA',
     description:
@@ -77,14 +77,14 @@ List<Project> projectList = [
     isList: true,
     imageList: schoolList,
   ),
-  Project(
-      name: 'Doctor Appointment Application',
-      description:
-          'Introducing the extraordinary "Doctor Appointment System" - a state-of-the-art Flutter UI application that redefines healthcare accessibility and efficiency. Seamlessly crafted, this app empowers users to effortlessly select doctors based on categories, engage in smooth messaging, and access detailed profiles.',
-      image: 'assets/images/doctor.png',
-      link: 'https://github.com/Hamad-Anwar/Doctor-Appointment-Application-UI',
-      isList: true,
-      imageList: holhealthList),
+  // Project(
+  //     name: 'Doctor Appointment Application',
+  //     description:
+  //         'Introducing the extraordinary "Doctor Appointment System" - a state-of-the-art Flutter UI application that redefines healthcare accessibility and efficiency. Seamlessly crafted, this app empowers users to effortlessly select doctors based on categories, engage in smooth messaging, and access detailed profiles.',
+  //     image: 'assets/images/doctor.png',
+  //     link: 'https://github.com/Hamad-Anwar/Doctor-Appointment-Application-UI',
+  //     isList: true,
+  //     imageList: holhealthList),
   // Project(
   //   name: 'Flutter Music Streaming Application',
   //   description:

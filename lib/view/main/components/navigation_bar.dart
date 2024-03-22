@@ -7,7 +7,9 @@ import '../../../res/constants.dart';
 import 'navigation_button_list.dart';
 
 class TopNavigationBar extends StatelessWidget {
-  const TopNavigationBar({super.key});
+  final void Function(int) onTap; // Add onTap here
+
+  const TopNavigationBar({Key? key, required this.onTap}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,7 +31,8 @@ class TopNavigationBar extends StatelessWidget {
           const Spacer(
             flex: 2,
           ),
-          if (!Responsive.isLargeMobile(context)) const NavigationButtonList(),
+          if (!Responsive.isLargeMobile(context))
+            NavigationButtonList(onTap: onTap),
           const Spacer(
             flex: 2,
           ),

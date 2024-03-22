@@ -304,7 +304,7 @@ getDialogue2(List imageList, BuildContext context, String description) {
                                         height: size.height * 1,
                                         width: size.width * 0.2,
                                         decoration: BoxDecoration(
-                                          color: Colors.red,
+                                          color: Colors.transparent,
                                           borderRadius:
                                               BorderRadius.circular(20),
                                           image: DecorationImage(
