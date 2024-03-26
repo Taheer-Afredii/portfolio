@@ -1,5 +1,5 @@
 name: tahir_portfolio
-description: "A new Flutter project."
+description: "Portfolio"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -42,17 +42,28 @@ dependencies:
   get: ^4.6.6
   flutter_svg: ^2.0.10+1
   google_fonts: ^6.2.1
+  flutter_native_splash: ^2.4.0
+
+
+
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+flutter_native_splash:
+  color: "#0E111F"
+  image: "assets/images/splash2.gif"
+  android: false
+  ios: false
+  web: true    
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^3.0.0
+  # flutter_lints: ^3.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

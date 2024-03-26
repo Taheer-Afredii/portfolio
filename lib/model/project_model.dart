@@ -34,24 +34,24 @@ List<Project> projectList = [
     isList: true,
     imageList: enlistList,
   ),
-  Project(
-    name: 'Conscious Media',
-    description:
-        "Conscious Media, the revolutionary app designed to harness the collective power of social media for meaningful change. With a unique blend of entertainment, education, and action, CM is more than just a social platform—it's a global movement towards a better world.Whether you're an individual, a business, or an organization, CM provides a space for everyone to come together, inspire one another, and collaborate on initiatives that drive positive impact. From sharing inspiring stories and innovative ideas to organizing events and advocating for causes, CM empowers users to make a difference in their communities and beyond.Share anything and everything that aligns with our mission: photos, videos, links, ideas, tips, news, events, recommendations, and more. Engage with like-minded individuals, discover new perspectives, and join forces to tackle pressing issues facing our world today.",
-    image: 'assets/images/coffee.png',
-    link: 'https://github.com/Hamad-Anwar/Coffe-Shop-Beautifull-UI',
-    isList: true,
-    imageList: kitchenBookList,
-  ),
   // Project(
-  //   name: 'Kitchen Book',
+  //   name: 'Conscious Media',
   //   description:
-  //       'With Kitchen Book, users can effortlessly explore nearby restaurants based on their current location, browse through enticing menus, and easily place orders, all through a seamless and intuitive interface. Users can keep track of their favorite spots by adding them to their personalized Favorites list. Stay updated with the latest offerings and promotions from local restaurants, and engage directly with owners through their posts, and stories. For restaurant owners, Kitchen Book provides comprehensive tools for managing orders, coordinating deliveries, and connecting with customers',
+  //       "Conscious Media, the revolutionary app designed to harness the collective power of social media for meaningful change. With a unique blend of entertainment, education, and action, CM is more than just a social platform—it's a global movement towards a better world.Whether you're an individual, a business, or an organization, CM provides a space for everyone to come together, inspire one another, and collaborate on initiatives that drive positive impact. From sharing inspiring stories and innovative ideas to organizing events and advocating for causes, CM empowers users to make a difference in their communities and beyond.Share anything and everything that aligns with our mission: photos, videos, links, ideas, tips, news, events, recommendations, and more. Engage with like-minded individuals, discover new perspectives, and join forces to tackle pressing issues facing our world today.",
   //   image: 'assets/images/coffee.png',
   //   link: 'https://github.com/Hamad-Anwar/Coffe-Shop-Beautifull-UI',
   //   isList: true,
   //   imageList: kitchenBookList,
   // ),
+  Project(
+    name: 'Kitchen Book',
+    description:
+        'With Kitchen Book, users can effortlessly explore nearby restaurants based on their current location, browse through enticing menus, and easily place orders, all through a seamless and intuitive interface. Users can keep track of their favorite spots by adding them to their personalized Favorites list. Stay updated with the latest offerings and promotions from local restaurants, and engage directly with owners through their posts, and stories. For restaurant owners, Kitchen Book provides comprehensive tools for managing orders, coordinating deliveries, and connecting with customers',
+    image: 'assets/images/coffee.png',
+    link: 'https://github.com/Hamad-Anwar/Coffe-Shop-Beautifull-UI',
+    isList: true,
+    imageList: kitchenBookList,
+  ),
   Project(
       name: 'EYOBOY - Flutter E-commerce App',
       description:
